@@ -269,8 +269,13 @@ body {
   color: var(--color-ocean);
 }
 
+.menu-link.current {
+  color: var(--color-ocean);
+}
+
 .menu-link.current::after {
   transform: scaleX(1);
+  color: var(--color-ocean);
 }
 
 .list-address {
